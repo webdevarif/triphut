@@ -1,0 +1,21 @@
+.container{
+    max-width:1320px;
+    margin:0 auto;
+    &--small{
+        max-width: 700px;
+        margin:0 auto;
+    }
+}
+
+
+.group{
+    > * + *  {
+        margin-top: 1rem;
+    }
+}
+
+
+.card{
+    border: 1px solid #eaeaea;
+    border-radius: 10px;
+}

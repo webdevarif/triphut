@@ -1,0 +1,95 @@
+.hero-heading{
+    font-size: 3.5rem;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    color: $color-primary;
+    span{
+        color: #000;
+        font-weight: 700;
+    }
+}
+
+.section-title{
+    font-size: clamp(2.5rem, 5vw, 3.5rem);
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    text-align: center;
+    span{
+        color: $color-primary;
+    }
+}
+
+.content-title{
+    font-size: clamp(2.5rem, 5vw, 3.5rem);
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    text-align: left;
+    span{
+        color: $color-primary;
+        font-weight: 600;
+    }
+}
+
+
+.section-sub-title{
+    font-size: clamp(1.8rem, 1vw, 2.5rem);
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    text-align: center;
+    span{
+        color: $color-primary;
+        font-weight: 600;
+    }
+}
+
+
+.breadcrumb-text{
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+.blurb-title{
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    span{
+        color: $color-primary;
+        font-weight: 600;
+    }
+}
+.text{
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+
+}
+p{
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+
+}
+
+.text--light{
+    color: rgba(255, 255, 255, 0.401);
+}
+
+.cta-title{
+    font-size: 55px;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    span{
+        color: $color-primary;
+        font-weight: 600;
+    }
+}
