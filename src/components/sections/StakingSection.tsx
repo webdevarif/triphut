@@ -119,9 +119,9 @@ function StakingSection() {
                   <path
                     d="M9.465 15.5325C9.21 15.6225 8.79 15.6225 8.535 15.5325C6.36 14.79 1.5 11.6925 1.5 6.4425C1.5 4.125 3.3675 2.25 5.67 2.25C7.035 2.25 8.2425 2.91 9 3.93C9.7575 2.91 10.9725 2.25 12.33 2.25C14.6325 2.25 16.5 4.125 16.5 6.4425C16.5 11.6925 11.64 14.79 9.465 15.5325Z"
                     stroke="#808191"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   />
                 </svg>
 
