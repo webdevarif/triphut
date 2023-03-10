@@ -1,4 +1,4 @@
-import React, { useState, ReactNode } from 'react';
+import React from 'react';
 import Logo from './footer-logo.svg';
 import Image from 'next/image';
 import { FiChevronRight } from 'react-icons/fi';
