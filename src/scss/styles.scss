@@ -11,3 +11,50 @@
   }
 }
 
+.image-text-widget a{
+  @apply text-success;
+}
+
+.shadow-danger{
+  box-shadow: 0px 20px 56px -8px rgba(244, 127, 58, 0.39);
+}
+
+.partners-carousel .swiper-slide{
+  @apply flex h-auto items-center justify-center;
+}
+
+.hero-section{
+  // @apply bg-[url('/assets/image/hero-bg-desktop.svg')];
+}
+
+
+.header-navmenu{
+  @apply hidden md:flex gap-x-[10px];  
+}
+.header-navmenu-item{
+  @apply relative flex;
+
+  &.has-submenu .header-navmenu-link{
+    @apply flex gap-1 items-center;
+  }
+
+
+  &.has-submenu:hover .header-navmenu-submenu{
+    @apply visible top-full opacity-100;
+  }
+}
+.header-navmenu-submenu{
+  @apply absolute ease-linear transition-all duration-150 opacity-0 invisible top-[calc(100%+10px)] min-w-[12rem] shadow-[0px_43px_65px_rgba(255,108,44,0.29)] bg-white py-1 rounded-[8px];
+}
+
+.header-navmenu-link{
+@apply text-[18px] leading-[22px] font-medium px-[10px] 2xl:px-[20px] py-[10px] text-black hover:text-danger transition-all duration-150 ease-linear relative whitespace-nowrap;
+}
+
+.sidebar-drawer{
+  @apply flex flex-col w-full max-w-[280px] bg-white min-h-screen top-0 -left-full fixed p-[25px];
+
+  &.active{
+    @apply left-0;
+  }
+}

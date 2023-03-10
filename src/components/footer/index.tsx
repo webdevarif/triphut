@@ -10,7 +10,7 @@ interface Props {
 }
 
 
-const FooterSection = ({ newsletter }: Props) => {
+const Footer = ({ newsletter }: Props) => {
   return (
     <footer>
       { newsletter !== false ? <TravelRequest /> : null }
@@ -161,4 +161,4 @@ const data = {
   
 }
 
-export default FooterSection;
+export default Footer;

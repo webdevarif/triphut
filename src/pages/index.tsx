@@ -3,6 +3,9 @@ import { type NextPage } from 'next';
 import Head from 'next/head';
 import Hero from 'src/components/Home/Hero';
 import MainLayout from 'src/layouts/MainLayout';
+import ImageText from 'src/components/Home/ImageText';
+import CtaAction from 'src/components/Home/CtaAction';
+import Partners from 'src/components/Home/Partners';
 
 const Home: NextPage = () => {
   return (
@@ -15,6 +18,9 @@ const Home: NextPage = () => {
       </Head>
 
       <Hero />
+      <ImageText />
+      <CtaAction />
+      <Partners />
     </MainLayout>
     </>
   );
