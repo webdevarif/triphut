@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { FiChevronDown, FiHeart } from 'react-icons/fi';
 import {HiArrowLongRight} from 'react-icons/hi2';
 import Image from 'next/image';
 import thumb from './thumb.jpg';

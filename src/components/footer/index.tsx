@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, ReactNode } from 'react';
 import Logo from './footer-logo.svg';
 import Image from 'next/image';
 import { FiChevronRight } from 'react-icons/fi';
@@ -10,7 +10,7 @@ interface Props {
 }
 
 
-const Footer = ({ newsletter }: Props) => {
+const FooterSection = ({ newsletter }: Props) => {
   return (
     <footer>
       { newsletter !== false ? <TravelRequest /> : null }
@@ -161,4 +161,4 @@ const data = {
   
 }
 
-export default Footer;
+export default FooterSection;

@@ -1,6 +1,8 @@
 import React from 'react';
 import MainLayout from 'src/layouts/MainLayout';
 import Heading from 'src/components/Heading';
+import { FiCheck, FiX } from 'react-icons/fi';
+import Image from 'next/image';
 import FormSearch from 'src/components/Forms/FormSearch';
 import LearderTable from 'src/components/LearderTable';
 
